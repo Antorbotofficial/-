@@ -2,13 +2,13 @@ const axios = require("axios");
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
-const CONFIG_URL = "https://raw.githubusercontent.com/shahadat-sahu/SAHU-API/refs/heads/main/SAHU-API.json";
+const CONFIG_URL = "https://raw.githubusercontent.com/Antorbotofficial/antor-API/refs/heads/main/antor-API.json";
 
 module.exports.config = {
   name: "quiz",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "ANTOR HOSSAIN",
   description: "Quiz with 30s timer",
   commandCategory: "Game",
   usages: "quiz",
@@ -36,7 +36,7 @@ module.exports.run = async function ({ api, event }) {
 
   try {
     const quizAPI = await loadQuizAPI();
-    if (!quizAPI) return api.sendMessage("Quiz API error call boss SAHU✔️", threadID, messageID);
+    if (!quizAPI) return api.sendMessage("Quiz API error call boss antor✔️", threadID, messageID);
 
     const res = await axios.get(quizAPI + "/quiz");
     const data = res.data;
@@ -87,7 +87,7 @@ module.exports.run = async function ({ api, event }) {
     }, messageID);
 
   } catch {
-    api.sendMessage("Quiz API error call boss SAHU✔", threadID, messageID);
+    api.sendMessage("Quiz API error call boss antor✔", threadID, messageID);
   }
 };
 

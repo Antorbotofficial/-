@@ -5,7 +5,7 @@ module.exports.config = {
   name: "owner",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "ANTOR HOSSAIN",
   description: "Show Owner Info with styled box & random photo",
   commandCategory: "Information",
   usages: "owner",
@@ -36,7 +36,7 @@ module.exports.run = async function ({ api, event }) {
 ║ 📞 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 :
 ║ wa.me/01882333052
 ║ ✈️ 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 :
-║ t.me/yoursahu
+║ t.me/yourantor
 ╚═════════════════════ ✿
 `;
 

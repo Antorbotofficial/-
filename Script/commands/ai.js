@@ -4,7 +4,7 @@ module.exports = {
   config: {
     name: "ai",
     version: "1.0.0",
-    credits: "SHAHADAT SAHU", //please don't change credit
+    credits: "ANTOR HOSSAIN", //please don't change credit
     cooldowns: 0,
     hasPermssion: 0,
     usePrefix: true
@@ -15,11 +15,11 @@ module.exports = {
     const messageID = event.messageID;
     const input = args.join(" ").trim();
 
-    let SAHU;
+    let antor;
     try {
-      SAHU = (
+      antor = (
         await axios.get(
-          "https://raw.githubusercontent.com/shahadat-sahu/SAHU-API/refs/heads/main/SAHU-API.json"
+          "https://raw.githubusercontent.com/Antorbotofficial/antor-API/refs/heads/main/antor-API.json"
         )
       ).data;
     } catch {
@@ -30,7 +30,7 @@ module.exports = {
       );
     }
 
-    const AI_API = SAHU.ai;
+    const AI_API = antor.ai;
 
     const askAI = async (text) => {
       try {

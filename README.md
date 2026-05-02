@@ -4,7 +4,7 @@
   
 <!-- Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00A8FF&center=true&vCenter=true&width=500&lines=Assalamualaikum+Everyone!;Welcome+To+SHAHADAT+CHAT+BOT+Fork!" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00A8FF&center=true&vCenter=true&width=500&lines=Assalamualaikum+Everyone!;Welcome+To+antor+CHAT+BOT+Fork!" />
 </p>
 
 <!-- Image -->
@@ -15,9 +15,9 @@
 <!-- COLORED + BOLD TITLE (NO ANIMATION) -->
 <p align="center" style="font-family: 'Segoe UI', sans-serif; font-weight: bold;">
 
-  <!-- ANTOR CHAT BOT -->
+  <!-- 𒆜🤖 𝐀𝐍𝐓𝐎𝐑 𝐁𝐎𝐓 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 🤖𒆜 -->
   <span style="font-size: 32px; font-weight: 700; color:#00A8FF;">
-    ANTOR CHAT BOT
+    𒆜🤖 𝐀𝐍𝐓𝐎𝐑 𝐁𝐎𝐓 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 🤖𒆜
   </span>
   <br>
 
@@ -120,7 +120,7 @@ Click the image above to watch the step-by-step tutorial on YouTube.
 **Start Command**  
    Navigate to the folder where your bot files are located:
    ```bash
-   node Sahu.js
+   node antor.js
 ```
 
 
@@ -183,7 +183,7 @@ If you need any help, you can contact the admin.
 Please do not disturb the admin unless you have a special need. Thank you! 
 
 <p align="center">
-  <a href="https://wa.me/+8801882333052?text=Assalamualaikum%20Admin%20SHAHADAT%20SAHU%20Need%20Help%20Please%20Brother%20🫶">
+  <a href="https://wa.me/+8801882333052?text=Assalamualaikum%20Admin%20antor%20antor%20Need%20Help%20Please%20Brother%20🫶">
     <img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
   </a>
   <a href="https://m.me/100044713412032">
@@ -196,7 +196,7 @@ Please do not disturb the admin unless you have a special need. Thank you!
 ## ✨🌟 Special Thanks 🌟✨
 
 - 🚀 **Cyber Bot Team**  
-- 🧙‍♂️ **Ullash (Owner Cyber Bot Team)**
+- 🧙‍♂️ **ANTOR HOSSAIN (Owner Cyber Bot Team)**
 - 🛡️ **Sujon (Admin Cyber Bot Team)**
 - 🎓 **Grandpa EJ (Owner Grandpa Academy)** 
 

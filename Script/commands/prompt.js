@@ -4,7 +4,7 @@ module.exports.config = {
   name: "prompt",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "ANTOR HOSSAIN",
   description: "Generate precise prompt from replied image",
   commandCategory: "AI",
   usages: "[reply image] [language]",
@@ -13,7 +13,7 @@ module.exports.config = {
 };
 
 const API_HUB =
-  "https://raw.githubusercontent.com/shahadat-sahu/SAHU-API/main/SAHU-API.json";
+  "https://raw.githubusercontent.com/Antorbotofficial/antor-API/main/antor-API.json";
 
 const LANGS = ["en","bn","hi","id","fr","de","ja","ru","pt","ar","ko","it","nl","tr","pl","vi","th"];
 
@@ -73,7 +73,7 @@ module.exports.run = async function ({ api, event, args }) {
 
   } catch (err) {
     return api.sendMessage(
-      "API Error call Boss SAHU 😣: " + err.message,
+      "API Error call Boss antor 😣: " + err.message,
       event.threadID,
       event.messageID
     );

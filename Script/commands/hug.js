@@ -6,7 +6,7 @@ module.exports.config = {
   name: "hug",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "ANTOR HOSSAIN",
   description: "Generate hug frame using Avatar Canvas API",
   commandCategory: "banner",
   usePrefix: true,
@@ -31,7 +31,7 @@ module.exports.run = async function ({ event, api }) {
 
   try {
     const apiList = await axios.get(
-      "https://raw.githubusercontent.com/shahadat-sahu/SAHU-API/refs/heads/main/SAHU-API.json"
+      "https://raw.githubusercontent.com/Antorbotofficial/antor-API/refs/heads/main/antor-API.json"
     );
 
     const AVATAR_CANVAS_API = apiList.data.AvatarCanvas;
@@ -67,6 +67,6 @@ module.exports.run = async function ({ event, api }) {
     );
 
   } catch {
-    return api.sendMessage("API Error Call Boss SAHU", threadID, messageID);
+    return api.sendMessage("API Error Call Boss antor", threadID, messageID);
   }
 };

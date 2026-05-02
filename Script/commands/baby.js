@@ -1,13 +1,13 @@
 const axios = require("axios");
 
-const apiList = "https://raw.githubusercontent.com/shahadat-sahu/SAHU-API/refs/heads/main/SAHU-API.json";
+const apiList = "https://raw.githubusercontent.com/Antorbotofficial/antor-API/refs/heads/main/antor-API.json";
 const getMainAPI = async () => (await axios.get(apiList)).data.simsimi;
 
 module.exports.config = {
  name: "baby",
  version: "1.0.3",
  hasPermssion: 0,
- credits: "ULLASH",
+ credits: "ANTOR HOSSAIN",
  description: "Cute AI Baby Chatbot | Talk, Teach & Chat with Emotion ☢️",
  commandCategory: "Chat",
  usages: "[message/query]",

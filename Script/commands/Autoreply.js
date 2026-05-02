@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const apiList = "https://raw.githubusercontent.com/shahadat-sahu/SAHU-API/refs/heads/main/SAHU-API.json";
+const apiList = "https://raw.githubusercontent.com/Antorbotofficial/antor-API/refs/heads/main/antor-API.json";
 
 const getMainAPI = async () => (await axios.get(apiList)).data.simsimi;
 
@@ -8,7 +8,7 @@ module.exports.config = {
   name: "autoreplybot",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "ANTOR HOSSAIN",
   usePrefix: false,
   commandCategory: "Chat",
   cooldowns: 0
@@ -31,19 +31,19 @@ module.exports.handleEvent = async function ({ api, event }) {
     "good morning": "GOOD MORNING দাত ব্রাশ করে খেয়ে নেও😚",
     "good night": "Sweet Dream babu… তবে আগে সাহু বস কে GN বলে নিও 😏💤",
     "tor ball": "~ এখনো বাল উঠে নাই নাকি তোমার?? 🤖",
-    "shahadat": "উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",
-    "owner": "‎[𝐎𝐖𝐍𝐄𝐑:☞ SHAHADAT SAHU ☜\nFacebook: https://www.facebook.com/profile.php?id=100044713412032\nWhatsApp: +8801882333052",
-    "admin": "He is SHAHADAT SAHU তাকে সবাই Admin SAHU হিসেবে চিনে😘☺️",
+    "antor": "উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",
+    "owner": "‎[𝐎𝐖𝐍𝐄𝐑:☞ ANTOR HOSSAIN ☜\nFacebook: https://www.facebook.com/profile.php?id=100044713412032\nWhatsApp: +8801882333052",
+    "admin": "He is ANTOR HOSSAIN তাকে সবাই Admin antor হিসেবে চিনে😘☺️",
     "babi": "এ তো হাছিনা হে মেরে দিলকি দারকান হে মেরি জান হে😍.",
     "chup": "তুই চুপ চুপ কর পাগল ছাগল",
     "Assalamualaikum": "Walaikumassalam❤️‍🩹",
-    "fork": "https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT.git",
+    "fork": "https://github.com/Antorbotofficial/ANTOR-BOT-OFFICIAL.git",
     "kiss me": "তুমি পঁচা তোমাকে কিস দিবো না 🤭",
     "thanks": "এতো ধন্যবাদ না দিয়ে আমার বস সাহু রে তোর গার্লফ্রেন্ড টা দিয়ে দে..!🐸🥵",
     "i love you": "মেয়ে হলে আমার বস সাহু এর ইনবক্সে এখুনি গুঁতা দিন🫢😻",
     "love you": "ভালোবাসা নামক আবলামী করতে চাইলে Boss সাহু এর ইনবক্সে গুতা দিন 😘",
     "by": "কিরে তুই কই যাস কোন মেয়ের সাথে চিপায় যাবি..!🌚🌶️",
-    "ami shahadat": "হ্যা বস কেমন আছেন..?☺️",
+    "ami antor": "হ্যা বস কেমন আছেন..?☺️",
     "bot er baccha": "আমার বাচ্চা তো তোমার গার্লফ্রেন্ডের পেটে..!!🌚⛏️",
     "tor nam ki": "MY NAME IS ─꯭─⃝‌‌𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭💖",
     "pic de": "এন থেকে সর দুরে গিয়া মর😒",
@@ -75,7 +75,7 @@ module.exports.handleEvent = async function ({ api, event }) {
         name: this.config.name,
         messageID: info.messageID,
         author: senderID,
-        type: "sahu"
+        type: "antor"
       });
     },
     messageID
@@ -107,7 +107,7 @@ module.exports.handleReply = async function ({ api, event, handleReply }) {
           name: module.exports.config.name,
           messageID: info.messageID,
           author: event.senderID,
-          type: "sahu"
+          type: "antor"
         });
       },
       event.messageID

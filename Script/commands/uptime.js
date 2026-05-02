@@ -7,7 +7,7 @@ module.exports = {
     name: "uptime",
     version: "2.0.0",
     hasPermssion: 0,
-    credits: "SHAHADAT SAHU",
+    credits: "ANTOR HOSSAIN",
     description: "Show advanced system uptime.",
     commandCategory: "system",
     usages: "uptime",
@@ -71,7 +71,7 @@ module.exports = {
 
     } catch (error) {
       console.error("Uptime command error:", error);
-      await api.sendMessage("call admin sahu", event.threadID);
+      await api.sendMessage("call admin antor", event.threadID);
     }
   }
 };

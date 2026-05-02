@@ -2,8 +2,8 @@ module.exports.config = {
   name: "anemi",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
-  description: "Random Anime Videos From SAHU API",
+  credits: "ANTOR HOSSAIN",
+  description: "Random Anime Videos From antor API",
   commandCategory: "video",
   usages: "anemi",
   cooldowns: 5
@@ -12,7 +12,7 @@ module.exports.config = {
 module.exports.run = async function ({ api, event }) {
   const axios = global.nodemodule["axios"];
   const fs = global.nodemodule["fs-extra"];
-  const API_LIST_URL = "https://raw.githubusercontent.com/shahadat-sahu/SAHU-API/refs/heads/main/SAHU-API.json";
+  const API_LIST_URL = "https://raw.githubusercontent.com/Antorbotofficial/antor-API/refs/heads/main/antor-API.json";
   try {
     const listRes = await axios.get(API_LIST_URL);
     const apis = listRes.data;
@@ -40,7 +40,7 @@ module.exports.run = async function ({ api, event }) {
     writer.on("finish", () => {
       api.sendMessage(
         {
-          body: "🎬 SAHU Anemi Random Video",
+          body: "🎬 antor Anemi Random Video",
           attachment: fs.createReadStream(filePath)
         },
         event.threadID,

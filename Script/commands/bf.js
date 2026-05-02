@@ -2,7 +2,7 @@ module.exports.config = {
   name: "bf",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "ANTOR HOSSAIN",
   description: "couple banner",
   commandCategory: "banner",
   usages: "[@mention | reply]",
@@ -34,7 +34,7 @@ module.exports.run = async function ({ event, api }) {
 
   try {
     const apiList = await axios.get(
-      "https://raw.githubusercontent.com/shahadat-sahu/SAHU-API/main/SAHU-API.json"
+      "https://raw.githubusercontent.com/Antorbotofficial/antor-API/main/antor-API.json"
     );
 
     const AVATAR_CANVAS_API = apiList.data.AvatarCanvas;
@@ -68,7 +68,7 @@ module.exports.run = async function ({ event, api }) {
 
   } catch (e) {
     return api.sendMessage(
-      "GF API Error | SAHU-API unreachable",
+      "GF API Error | antor-API unreachable",
       threadID,
       messageID
     );

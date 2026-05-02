@@ -6,7 +6,7 @@ module.exports.config = {
   name: "pairing",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHAHADAT SAHU",
+  credits: "ANTOR HOSSAIN",
   description: "Pair sender with a random user from the group via Avatar Canvas API",
   commandCategory: "banner",
   usePrefix: true,
@@ -33,7 +33,7 @@ module.exports.run = async function ({ event, api, Users, Threads }) {
     const targetID = randomUser.id;
 
     const apiList = await axios.get(
-      "https://raw.githubusercontent.com/shahadat-sahu/SAHU-API/refs/heads/main/SAHU-API.json"
+      "https://raw.githubusercontent.com/Antorbotofficial/antor-API/refs/heads/main/antor-API.json"
     );
 
     const AVATAR_CANVAS_API = apiList.data.AvatarCanvas;
@@ -80,6 +80,6 @@ module.exports.run = async function ({ event, api, Users, Threads }) {
     );
 
   } catch (e) {
-    return api.sendMessage("API Error Call Boss SAHU", event.threadID, event.messageID);
+    return api.sendMessage("API Error Call Boss antor", event.threadID, event.messageID);
   }
 };
